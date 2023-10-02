@@ -1,7 +1,7 @@
 import requests
 import pyfiglet
 
-text = "Meentest XMLRPC Exploitation:)"
+text = "Mrpentst XMLRPC Exploitation:)"
 ascii_art = pyfiglet.figlet_format(text)
 
 print(ascii_art)
